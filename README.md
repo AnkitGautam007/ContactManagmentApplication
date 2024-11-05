@@ -1,27 +1,39 @@
-# ContactManagementApplication
+# Contact Management Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+## Overview
 
-## Development server
+The **Contact Management Application** is a modern web application developed using **Angular 18** for the frontend and **.NET Core Web API** for the backend. The application provides users with a seamless interface to manage contacts efficiently. Users can view a list of contacts, add new contacts, and update existing ones using modal pop-ups. The application leverages **Bootstrap** for responsive design and a clean user experience.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Responsive Design**: Built with Bootstrap to ensure a responsive layout across devices.
+- **Contact List**: A user-friendly table to display the list of contacts.
+- **Add/Edit Contact**: Modal pop-ups for adding new contacts and editing existing ones.
+- **Server-Side Integration**: Interacts with a .NET Core Web API for data management.
+- **CRUD Operations**: Full support for Create, Read, Update, and Delete operations on contacts.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Frontend**: 
+  - Angular 18
+  - Bootstrap 5
+  - HTML/CSS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Backend**:
+  - .NET Core Web API
+  - Entity Framework Core (optional, if used for data access)
+  - JSON for data exchange
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Prerequisites
 
-## Running end-to-end tests
+- Node.js (v14 or higher)
+- Angular CLI (v14 or higher)
+- .NET Core SDK (v6.0 or higher)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Clone the Repository
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/AnkitGautam007/ContactManagmentApplication.git
+cd ContactManagmentApplication
